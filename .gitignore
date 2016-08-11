@@ -1,0 +1,13 @@
+# OSX
+.Trashes
+.Spotlight-V100
+.DS_Store
+._*
+
+# NODEJS
+node_modules
+npm-debug.log
+
+# OTHER
+dist
+lib
