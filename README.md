@@ -31,16 +31,16 @@ Each argument is an array element, which is a string with the valid types listed
 
 rule | description
 ---- | -----------
-any    | any type
-str    | string
-num    | number
-bool    | boolean
-func    | function
-arr    | array
-err    | error
-nil    | null or undefined
-obj    | object
-args    | arguments
+any  | any type
+str  | string
+num  | number
+bool | boolean
+func | function
+arr  | array
+err  | error
+nil  | null or undefined
+obj  | object
+args | arguments
 
 If necessary, set the optional parameter, use `nil` in together with other types.
 
