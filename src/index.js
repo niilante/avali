@@ -38,7 +38,7 @@ function humanize(arr) {
   return arr.slice(2).join(', ');
 }
 
-const avali = module.exports = function (rules, args) {
+function avali(rules, args) {
   if (!types.arr.check(rules)) {
     throw newException(0, 'array');
   }
@@ -66,4 +66,6 @@ const avali = module.exports = function (rules, args) {
       throw newException(index, humanize(expectedTypes));
     }
   });
-};
+}
+
+export default avali;
