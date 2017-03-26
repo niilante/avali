@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "eslint": "^3.2.2",
-    "eslint-config-exeto-base": "^1.0.0",
-    "eslint-plugin-import": "^1.12.0"
+    "eslint-config-exeto-base": "^3.0.2",
+    "eslint-plugin-import": "^2.2.0"
   }
 }
