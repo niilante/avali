@@ -18,7 +18,7 @@
     "validation"
   ],
   "dependencies": {
-    "lodash.isplainobject": "^4.0.5"
+    "is": "^3.2.1"
   },
   "devDependencies": {
     "eslint": "^3.2.2",
